@@ -96,11 +96,6 @@ c = (1-q)c_{terrain} + q c_{sky}, \qquad
 q = \text{clamp}\left(\frac{depth-35}{100}, 0, 0.82\right)
 $$
 
-## Test
+## Disclaimer
 
-```bash
-.venv/bin/python -m unittest discover -s tests
-```
-
-The tests cover deterministic terrain generation, supported terrain modes,
-mesh validity, and seeded floating forms. They do not require an OpenGL window.
+I mostly did the computational part, i,e, generating the terrain, and used AI for the OpenGL visualization part.
