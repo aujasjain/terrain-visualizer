@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terrain-visualizer"
+version = "0.1.0"
+description = "A GPU-rendered procedural terrain visualizer built with pyglet."
+requires-python = ">=3.10"
+dependencies = [
+    "pyglet>=2.0",
+]
+
+[tool.setuptools]
+packages = ["visualizer"]
+package-dir = {visualizer = "."}
