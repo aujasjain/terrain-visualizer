@@ -93,7 +93,7 @@ sky colour:
 
 $$
 c = (1-q)c_{terrain} + q c_{sky}, \qquad
-q = \operatorname{clamp}\left(\frac{depth-35}{100}, 0, 0.82\right)
+q = \text{clamp}\left(\frac{depth-35}{100}, 0, 0.82\right)
 $$
 
 ## Test
